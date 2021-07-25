@@ -1,0 +1,74 @@
+/*------------common styles-------
+--------------------------------*/
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.gap-100{
+    margin-bottom: 100px;
+}
+/*------------header styles-------
+--------------------------------*/
+button.btn.custom-nav-button {
+    background-color: #fceae8;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 15px 20px;
+}
+/*------------hero section styles-------
+---------------------------------------*/
+.hero-bg {
+    padding: 20px 40px;
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+h1.price {
+    color: #FF136F;
+}
+
+button.buy-now-button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+/*------------Categories section styles-------
+---------------------------------------*/
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 10px;
+}
+.cat-img {
+    width: 100px;
+}
+.category.cat-orange {
+    background-color: orange;
+}
+.category.cat-pink {
+    background-color: orchid;
+}
+
+.category.cat-blue {
+    background-color: blue;
+}
+/*------------Subscribe section styles-------
+---------------------------------------*/
+div#subscribe {
+    height: 300px;
+}
+/*------------Footer styles-------
+---------------------------------------*/
+button.buy-now-button.ft-btn {
+    margin-top: 20px;
+}
+.footer {
+    margin-top: 30px;
+}

@@ -64,6 +64,30 @@ button.buy-now-button {
 div#subscribe {
     height: 300px;
 }
+
+/*------------Counter styles-------
+---------------------------------------*/
+.counter {
+    border: 4px solid #ff3685;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.counter-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+span.icon-users {
+    background: #fceae8;
+    padding: 20px;
+}
+span.icon-users {
+    background: #fceae8;
+    padding: 15px 18px;
+    color: #ff3685;
+}
 /*------------Footer styles-------
 ---------------------------------------*/
 button.buy-now-button.ft-btn {
@@ -71,4 +95,13 @@ button.buy-now-button.ft-btn {
 }
 .footer {
     margin-top: 30px;
+}
+/*------------Media queries-------
+---------------------------------------*/
+@media only screen and (max-width: 688px) {
+    .counter-area {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
 }
